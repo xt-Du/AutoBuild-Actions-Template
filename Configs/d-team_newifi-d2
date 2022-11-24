@@ -1,6 +1,25 @@
 CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt7621=y
 CONFIG_TARGET_ramips_mt7621_DEVICE_d-team_newifi-d2=y
-
-# CONFIG_SIGNATURE_CHECK is not set
-# CONFIG_SIGNED_PACKAGES is not set
+CONFIG_LIBSODIUM_MINIMAL=y
+CONFIG_PACKAGE_libiconv-full=m
+CONFIG_PACKAGE_libminiupnpc=m
+CONFIG_PACKAGE_libnatpmp=m
+CONFIG_PACKAGE_libncurses=m
+CONFIG_PACKAGE_libreadline=m
+CONFIG_PACKAGE_libsodium=m
+CONFIG_PACKAGE_libstdcpp=m
+CONFIG_PACKAGE_luci-app-softethervpn=m
+CONFIG_PACKAGE_luci-app-v2ray-server=m
+CONFIG_PACKAGE_luci-app-zerotier=m
+CONFIG_PACKAGE_luci-i18n-softethervpn-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-v2ray-server-zh-cn=m
+CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=m
+CONFIG_PACKAGE_luci-ssl-openssl=m
+CONFIG_PACKAGE_softethervpn5-bridge=m
+CONFIG_PACKAGE_softethervpn5-client=m
+CONFIG_PACKAGE_softethervpn5-libs=m
+CONFIG_PACKAGE_softethervpn5-server=m
+CONFIG_PACKAGE_terminfo=m
+CONFIG_PACKAGE_unzip=m
+CONFIG_PACKAGE_zerotier=m
